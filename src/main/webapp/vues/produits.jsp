@@ -15,7 +15,7 @@
 
 </head>
 <body>
-	<div class="container bordure">
+	<div class="container">
 		<div class="card bordure">
 			<div class="card-header bordure">
 				Rechercher des produits

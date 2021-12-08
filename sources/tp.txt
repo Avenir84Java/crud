@@ -1,0 +1,19 @@
+Base de données crud
+Table produits
+id	int	primary auto_increment
+nom	varchar(50)	index
+prix	decimal(8,2)
+
+insérer 10 produits
+
+Projet
+Créer un Web Dynamic Project "crud"
+Ajouter un dossier "sources" au projet
+
+Design patterns (patron/modèle de conception)
+	1. MVC (Model Vue Controller), standard architecture d'application (tous langages)
+	2. Singleton
+	
+	
+ProduitDAO (Data Access Object), couche ORM (Object-Relational Mapping)
+IProduitDAO : contrat qui définit les méthodes que doit implémenter un objet ProduitDAO
